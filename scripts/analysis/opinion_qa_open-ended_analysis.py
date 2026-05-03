@@ -237,8 +237,6 @@ print("==Overall==")
 
 for name, model_df in models.items():
     print(f"\n{name}")
-    print(f"  Data shape: {model_df.shape}")
-    print(f"  Unique keys: {model_df['key'].nunique()}")
 
     df_res, summary = evaluate_model(model_df, human, orig)
     print("  Overall:")
