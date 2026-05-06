@@ -1,8 +1,6 @@
 # Effects of Answer Format Variation on Gender Bias in Large Language Models
 
-As Large Language Models (LLMs) are extensively deployed in sensitive applications, ranging from private chatbots to policy regulations, the issue of bias in their responses, particularly gender bias, becomes increasingly important. Existing studies commonly rely on single-format evaluations, despite established evidence from the social sciences showing that the format of a question can substantially influence how humans respond.
-
-This project investigates how answer format variation affects the measurement and manifestation of gender bias in LLMs. The analysis employs parallel versions of questions derived from two datasets, an NLP benchmark (BBQ, [Parrish et al., 2022](https://aclanthology.org/2022.findings-acl.165/)) and a set derived from U.S. public opinion surveys (OpinionQA, [Santukar et al., 2023](https://github.com/tatsu-lab/opinions_qa/tree/main)), with systematically varied response formats across multiple models. This approach addresses an important gap: whilst real-world LLM applications involve diverse interaction formats, our understanding of bias has been largely developed through single-format evaluations.
+This project investigates how answer format variation affects the measurement and manifestation of gender bias in LLMs. The analysis employs parallel versions of questions derived from two datasets, an NLP benchmark (BBQ, [Parrish et al., 2022](https://aclanthology.org/2022.findings-acl.165/)) and a set derived from U.S. public opinion surveys (OpinionQA, [Santukar et al., 2023](https://github.com/tatsu-lab/opinions_qa/tree/main)), with systematically varied response formats across multiple models.
 
 ```
 ├── data/
